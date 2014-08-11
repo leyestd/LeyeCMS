@@ -1,0 +1,44 @@
+      body {
+        padding-top: 30px;
+        padding-bottom: 60px;
+      }
+
+      .form-search {
+        padding-top: 10px;
+      }
+
+      #one,#two,#three {
+        margin-bottom: 15px;
+      }
+
+      #footer {
+        padding:10px;
+      }
+      #threeone {
+	  font-size:16px;
+        text-indent: 1cm;
+      }
+      #threeone a{
+        text-decoration:none;
+      }
+      #typelink a{
+        padding-left: 10px;
+      }
+       #typelink div{
+        margin-bottom: 20px;
+      }
+      .row-fluid ul.yiiPager a
+      {
+	padding:5px 10px;
+      }
+      .row-fluid ul.yiiPager a:visited
+      {
+	padding:5px 10px;
+      }
+      ul.yiiPager
+      {
+	line-height:300%;
+      }
+      #navtop {
+          font-size:16px;
+	}

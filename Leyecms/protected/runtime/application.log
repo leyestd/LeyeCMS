@@ -1,0 +1,776 @@
+2013/11/29 11:56:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /var/www/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /var/www/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /var/www/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /var/www/html/leyecms/protected/controllers/SiteController.php(33): CActiveRecord->findAll()
+#8 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/html/leyecms/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/leyecms/
+---
+2013/11/29 11:56:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /var/www/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /var/www/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /var/www/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /var/www/html/leyecms/protected/controllers/SiteController.php(33): CActiveRecord->findAll()
+#8 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#9 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/framework/web/CWebApplication.php(282): CController->run('')
+#13 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#14 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/html/leyecms/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/leyecms/
+---
+2013/11/29 13:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/leave
+---
+2013/11/29 13:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/leave
+---
+2013/11/29 13:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/leave
+---
+2013/11/29 13:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/attachment
+---
+2013/11/29 13:54:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/attachment
+---
+2013/11/29 13:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin
+---
+2013/11/29 13:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin
+---
+2013/11/29 13:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/siteInfo
+---
+2013/11/29 13:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/siteinfo"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/siteinfo')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/leyecms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/leyecms/index.php?r=admin/siteinfo
+HTTP_REFERER=http://218.4.205.131/leyecms/index.php?r=admin/siteInfo
+---
+2013/11/30 08:12:46 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:13:30 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:13:42 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:13:55 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AdvertisementController.php (72)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:17:50 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (111)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:18:05 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (111)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:35:58 [warning] [application] Failed to set unsafe attribute "file" of "Attachment".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AttachmentController.php (103)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:36:17 [warning] [application] Failed to set unsafe attribute "file" of "Attachment".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AttachmentController.php (103)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:36:29 [warning] [application] Failed to set unsafe attribute "file" of "Attachment".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AttachmentController.php (103)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:36:48 [warning] [application] Failed to set unsafe attribute "file" of "Attachment".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AttachmentController.php (103)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:50:03 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/leyecms/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:51:24 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/leyecms/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 08:51:35 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/leyecms/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:01:28 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:01:43 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:02:28 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:03:13 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:03:33 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:03:56 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:04:13 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:06:16 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:06:48 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:07:08 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:07:30 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:07:45 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:08:02 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:08:19 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:08:40 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:08:57 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:09:14 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:09:30 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:09:45 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:10:05 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:10:14 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:10:32 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:10:42 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:10:52 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 09:11:01 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/leyecms/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 10:00:47 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/leyecms/index.php (13)
+2013/11/30 10:02:10 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/leyecms/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/leyecms/index.php (13)
+2013/12/04 14:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "admin" 动作.' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('admin')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('admin')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/jiateng/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/jiateng/index.php/site/admin
+HTTP_REFERER=http://218.4.205.131/jiateng/index.php/site/login
+---
+2013/12/05 17:41:00 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 17:50:10 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 17:53:23 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 17:55:33 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 17:56:55 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 18:21:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message '您的请求无效。' in /var/www/framework/web/CController.php:1118
+Stack trace:
+#0 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/advertise...')
+#10 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/jiateng/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/jiateng/index.php/admin/advertisement/delete/id/27
+HTTP_REFERER=http://218.4.205.131/jiateng/index.php/admin/advertisement/admin
+---
+2013/12/05 19:05:00 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 19:36:56 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 19:57:13 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 20:33:45 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 20:57:32 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 21:11:46 [error] [php] Undefined variable: adv (/var/www/html/jiateng/protected/views/site/index.php:22)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/html/jiateng/protected/controllers/SiteController.php(58): SiteController->render()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/jiateng/index.php(13): CWebApplication->run()
+REQUEST_URI=/jiateng/index.php/site/index
+in /var/www/html/jiateng/protected/views/site/index.php (22)
+in /var/www/html/jiateng/protected/controllers/SiteController.php (58)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 21:15:47 [error] [php] Object of class Advertisement could not be converted to string (/var/www/html/jiateng/protected/views/site/index.php:22)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/html/jiateng/protected/controllers/SiteController.php(58): SiteController->render()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/jiateng/index.php(13): CWebApplication->run()
+REQUEST_URI=/jiateng/index.php/site/index
+in /var/www/html/jiateng/protected/views/site/index.php (22)
+in /var/www/html/jiateng/protected/controllers/SiteController.php (58)
+in /var/www/html/jiateng/index.php (13)
+2013/12/05 21:15:50 [error] [php] Object of class Advertisement could not be converted to string (/var/www/html/jiateng/protected/views/site/index.php:22)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/html/jiateng/protected/controllers/SiteController.php(58): SiteController->render()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/jiateng/index.php(13): CWebApplication->run()
+REQUEST_URI=/jiateng/index.php/site/index
+in /var/www/html/jiateng/protected/views/site/index.php (22)
+in /var/www/html/jiateng/protected/controllers/SiteController.php (58)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 08:17:37 [error] [php] Object of class Innovation could not be converted to int (/var/www/html/jiateng/protected/views/site/index.php:37)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/html/jiateng/protected/controllers/SiteController.php(58): SiteController->render()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/jiateng/index.php(13): CWebApplication->run()
+REQUEST_URI=/jiateng/
+in /var/www/html/jiateng/protected/views/site/index.php (37)
+in /var/www/html/jiateng/protected/controllers/SiteController.php (58)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 08:47:07 [error] [php] Undefined variable: p (/var/www/html/jiateng/protected/views/site/index.php:55)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/html/jiateng/protected/controllers/SiteController.php(58): SiteController->render()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/jiateng/index.php(13): CWebApplication->run()
+REQUEST_URI=/jiateng/index.php/site/index
+in /var/www/html/jiateng/protected/views/site/index.php (55)
+in /var/www/html/jiateng/protected/controllers/SiteController.php (58)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:34:16 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:39:48 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:40:26 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:41:15 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:41:49 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:47:55 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:55:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`leyecms`.`tbl_product`, CONSTRAINT `productid` FOREIGN KEY (`typeid`) REFERENCES `tbl_product_type` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `tbl_product_type` WHERE `tbl_product_type`.`id`=1.
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductTypeController.php (113)
+in /var/www/html/jiateng/index.php (13)
+2013/12/06 09:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`leyecms`.`tbl_product`, CONSTRAINT `productid` FOREIGN KEY (`typeid`) REFERENCES `tbl_product_type` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `tbl_product_type` WHERE `tbl_product_type`.`id`=1' in /var/www/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/framework/db/ar/CActiveRecord.php(1802): CDbCommand->execute()
+#1 /var/www/framework/db/ar/CActiveRecord.php(1222): CActiveRecord->deleteByPk('1')
+#2 /var/www/html/jiateng/protected/modules/admin/controllers/ProductTypeController.php(113): CActiveRecord->delete()
+#3 [internal function]: ProductTypeController->actionDelete('1')
+#4 /var/www/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProductTypeController), Array)
+#5 /var/www/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductTypeController), Object(ReflectionMethod), Array)
+#6 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /var/www/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /var/www/framework/web/CController.php(1116): CFilterChain->run()
+#9 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/framework/web/CWebApplication.php(282): CController->run('delete')
+#18 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/productTy...')
+#19 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/jiateng/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/jiateng/index.php/admin/productType/delete/id/1?ajax=product-type-grid
+HTTP_REFERER=http://218.4.205.131/jiateng/index.php/admin/productType/admin
+---
+2013/12/06 14:16:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "abouts" 动作.' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('abouts')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('abouts')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/abouts')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/jiateng/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/jiateng/index.php/site/abouts
+---
+2013/12/06 14:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "indexsa" 动作.' in /var/www/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/framework/web/CController.php(270): CController->missingAction('indexsa')
+#1 /var/www/framework/web/CWebApplication.php(282): CController->run('indexsa')
+#2 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('site/indexsa')
+#3 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/jiateng/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/jiateng/index.php/site/indexsa
+---
+2013/12/07 10:50:37 [error] [php] Undefined variable: p (/var/www/html/jiateng/protected/views/site/index.php:68)
+Stack trace:
+#0 /var/www/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/html/jiateng/protected/controllers/SiteController.php(58): SiteController->render()
+#3 /var/www/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /var/www/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/jiateng/index.php(13): CWebApplication->run()
+REQUEST_URI=/jiateng/index.php/site/index
+in /var/www/html/jiateng/protected/views/site/index.php (68)
+in /var/www/html/jiateng/protected/controllers/SiteController.php (58)
+in /var/www/html/jiateng/index.php (13)
+2013/12/10 08:08:44 [warning] [application] Failed to set unsafe attribute "file" of "Advertisement".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AdvertisementController.php (105)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 13:19:37 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 13:19:48 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 13:22:00 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 13:22:17 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 13:22:32 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:27:49 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:29:48 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:29:59 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:30:22 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:30:53 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:31:14 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 14:31:52 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 15:46:22 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 15:46:47 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 15:47:16 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/11 22:20:35 [warning] [application] Failed to set unsafe attribute "file" of "Attachment".
+in /var/www/html/jiateng/protected/modules/admin/controllers/AttachmentController.php (72)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 09:30:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "product"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('product')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/jiateng/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/jiateng/index.php/product
+---
+2013/12/12 09:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "product"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('product')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/jiateng/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/jiateng/index.php/product
+---
+2013/12/12 09:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "product"。' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('product')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/jiateng/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/jiateng/index.php/product
+HTTP_REFERER=http://218.4.205.131/jiateng/index.php/product
+---
+2013/12/12 10:12:20 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 10:12:33 [warning] [application] Failed to set unsafe attribute "file" of "Innovation".
+in /var/www/html/jiateng/protected/modules/admin/controllers/InnovationController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 10:42:45 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:14:11 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:14:34 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:14:52 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:15:47 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:16:33 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:16:48 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:17:13 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:17:31 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:18:00 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:19:26 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:19:52 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:20:26 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:20:56 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:21:27 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:21:32 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (111)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:21:52 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:22:48 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:23:09 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:23:30 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:23:56 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:24:12 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:24:45 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:26:00 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:26:17 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:26:49 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:27:15 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:27:43 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:28:04 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:28:28 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:28:57 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:29:19 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:29:48 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:30:10 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:31:00 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:31:27 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:31:52 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:32:12 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:32:38 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:33:04 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:33:22 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:33:49 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:34:56 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:35:24 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:35:55 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:36:16 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:36:54 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:37:21 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:38:54 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:39:18 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:40:34 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:40:51 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:41:23 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:42:05 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:42:31 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:42:55 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:43:21 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:43:49 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:44:27 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:45:21 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:45:37 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:46:37 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:46:57 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:47:23 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:47:38 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:47:57 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:48:17 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:48:36 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:48:55 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:49:16 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:50:57 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:56:09 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:56:41 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
+2013/12/12 13:57:01 [warning] [application] Failed to set unsafe attribute "file" of "Product".
+in /var/www/html/jiateng/protected/modules/admin/controllers/ProductController.php (71)
+in /var/www/html/jiateng/index.php (13)
